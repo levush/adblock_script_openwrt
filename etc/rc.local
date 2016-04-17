@@ -1,0 +1,7 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+#first run adblock, init and configure firewall. 
+#blocklists are in tmp as we are out of memory
+/etc/adblock.sh -b
+exit 0
